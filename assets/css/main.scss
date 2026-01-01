@@ -1,0 +1,32 @@
+---
+---
+@import "minimal-mistakes";
+
+/* Background texture */
+body {
+  background-image: url("/images/smooth-stucco-wall.jpg");
+  background-repeat: repeat;
+}
+
+/* Sidebar colour (blue panel) */
+.sidebar {
+  background-color: #0b6f8a;
+}
+
+/* Sidebar text colour */
+.sidebar a,
+.sidebar .author__name,
+.sidebar .author__bio {
+  color: #ffffff !important;
+}
+
+/* Sidebar hover */
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Main content readability */
+.page__content p {
+  line-height: 1.7;
+  font-size: 1.02rem;
+}
